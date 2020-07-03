@@ -1,0 +1,547 @@
+*{
+	margin : 0;
+	padding : 0;
+}
+
+body{
+	
+	font-family : "Corbel";
+	box-sizing : border-box;
+	background-color : #dd4124;
+}
+
+h1{
+
+	font-size : 2.8em;
+	font-weight : normal;
+	text-transform : uppercase;
+	color : #efc050;
+	background-color : #172035;
+
+}
+
+h2{
+	
+	font-size : 2em;
+	font-weight : normal;
+	padding : 10px 0;
+	color : #172035;
+	background-color : #efc050;
+}
+
+h3{
+	
+}
+
+h4{
+	
+}
+
+p{
+	
+}
+
+ul{
+	list-style-position : inside;
+}
+
+button{
+	cursor : pointer;
+}
+
+
+/*---------------------start main_header---------------------*/
+
+/*start main_header*/
+
+.main_header{
+	background : url('../img/mainheader/bookshelf.jpg');
+	background-size : cover;
+	display : flex;
+	flex-direction : column;
+	flex-wrap : wrap;
+}
+
+/*end main_header*/
+
+/*start main_header_club*/
+
+.main_header_club{
+	display : flex;
+	border-radius : 15px;
+	background-color : #dd4124;
+	padding : 10px;
+	flex-direction : column;
+	width : 400px;
+	box-sizing : border-box;
+	align-items : center;
+}
+
+.main_header_club_row{
+	display: flex;
+}
+
+.main_header_club_name{
+	font-weight : bold;
+	font-size : 1.2em;
+	color : #dfcfbe;
+}
+
+.main_header_club_abbreviation{
+	font-weight : bold;
+	font-size : 6em;
+	color : #efc050;
+}
+
+/*end main_header_club*/
+
+
+/*start main_header_nav*/
+
+.main_header_nav{
+	display : flex;
+	flex-wrap : wrap;
+	list-style-type : none;
+	box-sizing : border-box;
+}
+
+.main_header_nav li{
+	background-color : #282b2f;
+	border-radius : 5px;
+	margin-left : 5px;
+	padding : 10px;
+	box-sizing : border-box;
+}
+
+.main_header_nav a{
+	font-weight : bold;
+	font-size : 0.9em;
+	text-decoration-line : none;
+}
+
+/*end main_header_nav*/
+
+
+/*start main_header_search_area*/
+
+.main_header_search_area{
+	display : flex;
+	width : 620px;
+	border-radius : 5px;
+	background-color : #dd4124;
+	padding : 10px;
+	box-sizing : border-box;
+	align-items : center;
+}
+
+.main_header_search_area label{
+	text-transform : uppercase;
+	color : #e4cf93;
+	font-weight : bold;
+}
+
+.main_header_search_area input{
+	height : 30px;
+	width : 350px;
+	border-radius : 4px;
+	margin : 5px;
+}
+
+.main_header_button_search{
+	height : 40px;
+	padding : 8px 8px;
+	border-radius : 5px;
+}
+
+/*end main_header_search_area*/
+
+
+/*start main_header_login*/
+
+.main_header_login{
+	border-radius : 5px;
+	background-color : #f0c282;
+	padding : 10px 20px;
+	display : flex;
+	height : 460px;
+	width : 420px;
+	box-sizing : border-box;
+}
+
+.main_header_login input{
+	height : 30px;
+	width : 350px;
+	border-radius : 4px;
+	margin-top : 10px;
+	margin-bottom : 10px;
+}
+
+.main_header_login label,
+.main_header_login p{
+	font-weight : bold;
+	
+}
+
+.main_header_login p{
+	font-size : 0.9em;
+	margin-top : 40px;
+	margin-bottom : 10px;
+}
+
+.main_header_login h2{
+	text-align : center;
+	margin : 5px 20px;
+	border : 3px solid #172035;
+	border-radius : 5px;
+	font-weight : bold;
+}
+
+.button_submit{
+	margin : 15px auto 0;
+}
+
+.button_create_acct{
+	margin : 5px auto;
+}
+
+
+/*end main_header_login*/
+
+/*start main_header_quotes*/
+
+.main_header_quotes{
+	width : 650px;
+	box-sizing : border-box;
+	font-size : 45px;
+	height : 300px;
+	line-height : 55px;
+	padding : 10px 40px;
+	margin : auto;
+	background-color : #f0c282;
+	border-radius : 4px;
+}
+
+/*end main_header_quotes*/
+
+/*start main_header_first_row*/
+
+.main_header_first_row{
+	margin : 15px 20px 10px 20px;
+	display:flex;
+	
+}
+
+.main_header_ab{
+	display : flex;
+	flex-direction : column;
+	justify-content : space-around;
+	margin-left : 30px;
+	align-items : center;
+}
+
+/*end main_header_first_row*/
+
+/*start main_header_second_row*/
+
+.main_header_second_row{
+	margin : 15px 20px 10px 20px;
+	display : flex;
+}
+
+/*end main_header_second_row*/
+
+/*---------------------end main_header---------------------*/
+
+
+.second_row{
+	display : flex;
+	flex-direction : row;
+}
+
+
+/*---------------------start section---------------------*/
+
+.section{
+	box-sizing : border-box;
+	background-color : #dd4124;
+	width : 100%;
+
+}
+
+.section h1{
+	text-align : center;
+	margin : 10px 120px;
+	padding : 20px 0;
+	border-radius : 5px;
+	font-weight : bold;
+}
+
+.section_lt{
+	display : flex;
+	justify-content : center;
+}
+
+.section_latest_books img{
+	padding : 10px;
+}
+
+.section_welcome p{
+	text-indent : 55px;
+	line-height : 25px;
+	font-size : 1.15em;
+	padding-bottom : 25px;
+}
+
+.section_welcome_paragraph{
+	padding : 30px 30px;
+}
+
+/*---------------------end section---------------------*/
+
+
+
+
+/*---------------------start article---------------------*/
+
+.article{
+	box-sizing : border-box;
+	width : 100%;
+
+}
+
+.article ul{
+	padding-bottom : 25px;
+}
+
+.featured_books{
+	display : flex;
+	flex-direction : column;
+}
+
+.featured_books_of_the_week{
+	margin : 10px 120px;
+	padding : 20px 0;
+	border-radius : 5px;
+	font-weight : bold;
+}
+
+.feature_books_title{
+	padding : 20px 5px;
+	border-radius : 5px;
+	margin-bottom : 20px;
+}
+
+.featured_books h1,
+.featured_books h3,
+.featured_books h4{
+	text-align : center;
+}
+
+.featured_books_category{
+	padding-top : 15px;
+}
+
+.featured_books_category{
+	font-size : 1em;
+	text-transform : uppercase;
+	font-weight : bold;
+}
+
+.first_row_featured_books,
+.second_row_featured_books,
+.third_row_featured_books,
+.fourth_row_featured_books{
+	display : flex;
+	flex-direction : row;
+	box-sizing : border-box;
+}
+
+.first_right_col,
+.first_left_col,
+.second_right_col,
+.second_left_col,
+.third_right_col,
+.third_left_col,
+.fourth_right_col,
+.fourth_left_col{
+	display : flex;
+	flex-direction : column;
+	
+	width : 50%;
+	padding : 5px 20px;
+}
+
+.read_more{
+	align-self : flex-end;
+	margin-top : auto;
+}
+
+.read_excerpt{
+	align-self : flex-start;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : 20px;
+	margin-bottom : 20px;
+}
+
+
+.first_left_col img,
+.first_right_col img,
+.second_left_col img,
+.second_right_col img,
+.third_left_col img,
+.third_right_col img,
+.fourth_left_col img,
+.fourth_right_col img{
+	align-self: flex-start;
+	margin-left : auto;
+	margin-right : auto;
+	padding : 20px 0px;
+}
+
+.featured_books_paragraph{
+	padding-top: 20px;
+	padding-bottom : 30px;
+}
+
+.featured_books_paragraph p{
+	text-indent : 35px;
+	padding-bottom : 20px;
+	line-height : 20px;
+	font-size : 1.05em;
+}
+
+.featured_books_red{
+	background-color : #dd4124;
+	border : 5px solid #efc050;
+}
+
+.featured_books_yellow{
+	background-color : #efc050;
+	border : 5px solid #dd4124;
+}
+
+/*---------------------end article---------------------*/
+
+
+/*---------------------start aside---------------------*/
+
+.aside{
+	box-sizing : border-box;
+	background-color : #dd4124;
+	width : 250%;
+
+}
+
+.aside h1{
+	padding : 20px 5px;
+	margin : 5px;
+	border-radius : 5px;
+	font-weight : bold;
+}
+
+.aside h2{
+	margin : 5px;
+	border-radius : 5px;
+	border : 5px solid #172035;
+	font-weight : bold;
+}
+
+.aside h1,
+.aside h2{
+	text-align : center;
+}
+
+.list_best_seller_books{
+	margin : 10px;
+	padding : 15px 5px;
+	box-sizing : border-box;
+	background-color : #efc050;
+	border-radius : 5px;
+}
+
+.list_best_seller_books img,
+.list_best_seller_books button{
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : 10px;
+}
+
+.list_best_seller_books h3,
+.list_best_seller_books h4{
+	text-align : center;
+	padding-top : 15px;
+}
+
+.list_best_seller_books p{
+	font-size : 0.95em;
+	text-indent : 20px;
+	padding : 5px 10px;
+}
+
+/*---------------------end aside---------------------*/
+
+/*start button_design*/
+
+.button_design{
+	font-family : "Arial";
+	font-size : 1.2em;
+	padding : 4px 8px;
+	border-radius : 5px;
+	height : 35px;
+	background-color : #282b2f;
+	color : #e4cf93;
+	text-transform : uppercase;
+}
+
+/*end button_design*/
+
+/*---------------------start main-footer---------------------*/
+
+.main-footer{
+	text-align : center;
+	font-size : 0.9em;
+	padding : 20px 0;
+	
+}
+
+/*---------------------end main-footer---------------------*/
+
+/*---------------------start selector---------------------*/
+a:link{
+	color : #efc050;
+}
+
+a:visited{
+	color : #efc050;
+}
+
+a:hover{
+	color : white;
+	cursor : pointer;
+}
+
+a:active{
+	color : #dd4124;
+}
+
+button:hover{
+	background-color : #dd4124;
+}
+
+/*---------------------end selector---------------------*/
+
+/*---------------------start @font-face---------------------*/
+
+@font-face{
+	font-family : 'Corbel';
+	src : url('../font/Corbel.ttf') format('truetype');
+}
+
+@font-face{
+	font-family : 'CorbelB';
+	src : url('../font/CorbelB.ttf') format('truetype');
+}
+
+/*---------------------end @font-face---------------------*/
